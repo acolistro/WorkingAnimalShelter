@@ -21,6 +21,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/zakkreyshort/Desktop/AnimalShelter.Solution/Views/Animals/Delete.cshtml",
+      "TargetPath": "Views\\Animals\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/zakkreyshort/Desktop/AnimalShelter.Solution/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"

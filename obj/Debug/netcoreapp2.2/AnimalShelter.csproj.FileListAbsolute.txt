@@ -79,3 +79,5 @@ C:/Users/ThinkPad/desktop/AnimalShelter/obj/Debug/netcoreapp2.2/AnimalShelter.cs
 /Users/zakkreyshort/Desktop/AnimalShelter.Solution/obj/Debug/netcoreapp2.2/AnimalShelter.dll
 /Users/zakkreyshort/Desktop/AnimalShelter.Solution/obj/Debug/netcoreapp2.2/AnimalShelter.pdb
 /Users/zakkreyshort/Desktop/AnimalShelter.Solution/obj/Debug/netcoreapp2.2/AnimalShelter.csproj.CopyComplete
+/Users/zakkreyshort/Desktop/AnimalShelter.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Animals/Edit.g.cshtml.cs
+/Users/zakkreyshort/Desktop/AnimalShelter.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Animals/Delete.g.cshtml.cs

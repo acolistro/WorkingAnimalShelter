@@ -1,0 +1,50 @@
+{
+  "FilePath": "/Users/zakkreyshort/Desktop/AnimalShelter.Solution/AnimalShelter.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": "AnimalShelter",
+  "Documents": [
+    {
+      "FilePath": "/Users/zakkreyshort/Desktop/AnimalShelter.Solution/Views/Animals/Create.cshtml",
+      "TargetPath": "Views\\Animals\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/zakkreyshort/Desktop/AnimalShelter.Solution/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/zakkreyshort/Desktop/AnimalShelter.Solution/Views/Animals/Details.cshtml",
+      "TargetPath": "Views\\Animals\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/zakkreyshort/Desktop/AnimalShelter.Solution/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/zakkreyshort/Desktop/AnimalShelter.Solution/Views/Animals/Index.cshtml",
+      "TargetPath": "Views\\Animals\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/zakkreyshort/Desktop/AnimalShelter.Solution/Views/Animals/Edit.cshtml",
+      "TargetPath": "Views\\Animals\\Edit.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}

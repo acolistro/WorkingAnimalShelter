@@ -8,5 +8,7 @@ namespace AnimalShelter.Models
         public string Sex { get; set; }
         public string EntryDate { get; set; }
         public string Name { get; set; }
+        public int TypeId { get; set; }
+        public virtual Type Type { get; set; }
     }
 }

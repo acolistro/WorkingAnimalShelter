@@ -4,39 +4,13 @@ namespace AnimalShelter.Models
 {
     public class Type
     {
-        private static List<Type> _types = new List<Type>{ };
-        public string Name { get; set;}
-
-        public int Id {get; }
-        public List<Animal> Animals {get; set;}
-
-        public Type(string typeName)
+        public Type()
         {
-            Name = typeName;
-            _types.Add(this);
-            Id = _types.Count;
-            Animals = new List<Animal>{};
+            this.Animals = new HashSet<Animal>();
         }
 
-        public static void ClearAll()
-        {
-        _types.Clear();
-        }
-
-        public static List<Type> GetAll()
-        {
-        return _types;
-        }
-
-        public static Type Find(int searchId)
-        {
-        return _types[searchId - 1];
-        }
-
-
-        public void AddAnimal(Animal animal)
-        {
-        Animals.Add(animal);
-        }
+        public int TypeId { get; set; }
+        public string Name { get; set; }
+        public virtual ICollection<Animal> Animals { get; set; }
     }
 }

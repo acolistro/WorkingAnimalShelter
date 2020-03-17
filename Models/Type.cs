@@ -5,7 +5,8 @@ namespace AnimalShelter.Models
     public class Type
     {
         private static List<Type> _types = new List<Type>{ };
-        public string Name { get; set ;}
+        public string Name { get; set;}
+
         public int Id {get; }
         public List<Animal> Animals {get; set;}
 
@@ -33,7 +34,7 @@ namespace AnimalShelter.Models
         }
 
 
-        public void AddItem(Animal animal)
+        public void AddAnimal(Animal animal)
         {
         Animals.Add(animal);
         }

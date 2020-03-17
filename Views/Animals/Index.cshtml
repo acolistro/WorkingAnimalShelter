@@ -15,7 +15,7 @@
 
 @foreach (Animal animal in Model)
 {
-  <li>@Html.ActionLink($"{animal.Description}", "Details", new { id = animal.AnimalId })</li>
+  <li>@Html.ActionLink($"{animal.Description}", "Details", new { id = animal.Id })</li>
 }
 
 <p>@Html.ActionLink("Add new animal", "Create")</p>

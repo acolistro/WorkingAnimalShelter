@@ -20,6 +20,20 @@ namespace AnimalShelter.Controllers
       return View(model);
     }
 
+    public ActionResult Edit(int id)
+    {
+      var thisAnimal = _db.Animals.FirstOrDefault(animals => animals.AnimalId == id);
+      return View(thisAnimal);
+    }
+
+    [HttpPost]
+    public ActionResult Edit(Animal animal)
+    {
+      _db.Entry(animal).State = EntityState.Modified;
+      _db.SaveChanges();
+      return RedirectToAction("Index");
+    }
+
     public ActionResult Create()
     {
       return View();

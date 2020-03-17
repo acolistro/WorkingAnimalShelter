@@ -3,13 +3,13 @@ using AnimalShelter.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AnimalShelter.Controller
+namespace AnimalShelter.Controllers
 {
-  public class AnimalController : Controller
+  public class AnimalsController : Controller
   {
     private readonly AnimalShelterContext _db;
 
-    public AnimalController(AnimalShelterContext db)
+    public AnimalsController(AnimalShelterContext db)
     {
       _db = db;
     }
@@ -28,7 +28,7 @@ namespace AnimalShelter.Controller
     [HttpPost]
     public ActionResult Create (Animal animal)
     {
-      _db.Items.Add(animal);
+      _db.Animals.Add(animal);
       _db.SaveChanges();
       return RedirectToAction("Index");
     }

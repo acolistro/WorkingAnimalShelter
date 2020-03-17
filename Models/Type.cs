@@ -35,7 +35,7 @@ namespace AnimalShelter.Models
 
         public void AddItem(Animal animal)
         {
-        Animal.Add(animal);
+        Animals.Add(animal);
         }
     }
 }

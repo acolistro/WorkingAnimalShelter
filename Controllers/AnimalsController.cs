@@ -15,6 +15,7 @@ namespace AnimalShelter.Controllers
       _db = db;
     }
 
+    
     public ActionResult Index()
     {
       List<Animal> model =  _db.Animals.Include(animals => animals.Type).ToList();
